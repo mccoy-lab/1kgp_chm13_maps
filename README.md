@@ -1,4 +1,12 @@
-# 1kgp_chm13_maps
+# 1KGP T2T-CHM13 Maps
+
+Recombination maps generated using [pyrho](https://github.com/popgenmethods/pyrho) for autosomes and X chromosomes from the Thousand Genomes Project (1KGP), realigned to the [T2T-CHM13 reference genome](https://github.com/marbl/CHM13). 
+
+Data is available here: 
+
+Recombination maps have been generated both with and without the use of a [short read accessibility mask](https://github.com/marbl/CHM13). 
+
+Each set of recombination maps is available as a set of population-specific maps and as an averaged map for the entire 1KGP dataset. 
 
 ## Inputs
 
