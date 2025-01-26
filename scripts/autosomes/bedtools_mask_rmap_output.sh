@@ -1,5 +1,3 @@
-ml bedtools 
-
 inFile=$(sed "${SLURM_ARRAY_TASK_ID}q;d" <<<`ls opt_params_masked`)
 prefix=`cut -f1 -d'.' <<<${inFile}`
 chromosome=`cut -f2 -d'_' <<<${prefix} | cut -f2 -d'r'`
