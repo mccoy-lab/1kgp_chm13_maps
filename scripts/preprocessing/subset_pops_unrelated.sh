@@ -1,12 +1,3 @@
-#!/bin/bash
-#SBATCH --time=2:00:00                     
-#SBATCH --nodes=1                          
-#SBATCH --cpus-per-task=24                 
-#SBATCH --partition=defq                    
-#SBATCH --account=rmccoy22
-
-ml bcftools
-
 pop_number=$(( (${SLURM_ARRAY_TASK_ID} + 22 -1) / 22 )) 
 chr=$(( ${SLURM_ARRAY_TASK_ID} % 22 ))
 if [ ${chr} -eq 0 ]
