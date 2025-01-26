@@ -1,10 +1,3 @@
-#!/bin/bash
-#SBATCH --time=2:00:00                     
-#SBATCH --nodes=1                          
-#SBATCH --cpus-per-task=24                 
-#SBATCH --partition=defq                    
-#SBATCH --account=mschatz1
-
 pop_number=${SLURM_ARRAY_TASK_ID}
 
 pop_info=$(sed "${pop_number}q;d" make_table_pop_sizes.txt)
