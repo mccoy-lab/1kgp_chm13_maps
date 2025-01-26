@@ -1,13 +1,3 @@
-#!/bin/bash
-#SBATCH --time=4:30:00
-#SBATCH --nodes=1
-#SBATCH --cpus-per-task=48
-#SBATCH --partition=defq
-#SBATCH --account=rmccoy22
-
-ml anaconda 
-conda activate my-pyrho-env
-
 pop_number=${SLURM_ARRAY_TASK_ID}
 pop_info=$(sed "${pop_number}q;d" chrX_nPAR_make_table_pop_sizes.txt)
 pop=`cut -f1 -d' '<<<${pop_info}`
