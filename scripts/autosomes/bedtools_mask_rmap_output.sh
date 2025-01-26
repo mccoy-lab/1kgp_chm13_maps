@@ -1,10 +1,3 @@
-#!/bin/bash
-#SBATCH --time=0:25:00                     
-#SBATCH --nodes=1                          
-#SBATCH --cpus-per-task=24     
-#SBATCH --partition=defq                    
-#SBATCH --account=rmccoy22
-
 ml bedtools 
 
 inFile=$(sed "${SLURM_ARRAY_TASK_ID}q;d" <<<`ls opt_params_masked`)
