@@ -4,7 +4,11 @@ Recombination maps generated using [pyrho](https://github.com/popgenmethods/pyrh
 
 [Data is available here](https://drive.google.com/drive/folders/1XHpFu_SLAtgF3kZuzRC1WeH5LXtIv4NW?usp=sharing)
 
-Recombination maps have been generated both with and without the use of a [short read accessibility mask](https://github.com/marbl/CHM13). 
+Specifically, this directory contains three types of data:
+
+* `Masked`: Recombination maps created after application of a [short read accessibility mask](https://github.com/marbl/CHM13), removing regions with low-confidence read alignment.
+* `No mask`: Recombination maps created without use of an accessibility mask.
+* `No mask, scaled to deCODE`:  Recombination maps created without use of an accessibility mask and subsequently scaled to deCODE map lengths.
 
 Each set of recombination maps is available as a set of population-specific maps and as an averaged map for the entire 1KGP dataset. 
 
