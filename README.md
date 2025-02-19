@@ -2,7 +2,7 @@
 
 Recombination maps generated using [pyrho](https://github.com/popgenmethods/pyrho) for autosomes and X chromosomes from the Thousand Genomes Project (1KGP), realigned to the [T2T-CHM13 reference genome v2.0](https://github.com/marbl/CHM13). 
 
-[Data is available here](https://drive.google.com/drive/folders/1XHpFu_SLAtgF3kZuzRC1WeH5LXtIv4NW?usp=sharing)
+[Data is available here](https://drive.google.com/drive/folders/1XHpFu_SLAtgF3kZuzRC1WeH5LXtIv4NW?usp=sharing) and at https://zenodo.org/records/14891074 
 
 Specifically, this directory contains three types of data:
 
