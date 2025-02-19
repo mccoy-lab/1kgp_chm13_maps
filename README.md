@@ -28,3 +28,5 @@ All scripts used for generating recombination maps. Contains scripts for the fol
 * `autosomes`: Directory contains scripts to create per-population and averaged recombination maps for all autosomes. 
 * `chrX`: Contains scripts to apply accessibility mask to chrX and separate per population. Contains directories with recombination map scripts for **pseudoautosomal** and **non-pseudoautosomal** regions 
 
+
+* `variance_sorted_1mb.csv` - table of variance in recombination rates across populations. Sorted in descending order. Variance was computed in nonoverlapping 1 Mb windows.
