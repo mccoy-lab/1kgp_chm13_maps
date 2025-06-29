@@ -1,4 +1,4 @@
-pop_info=$(sed "${SLURM_ARRAY_TASK_ID}q;d" ../../inputsmake_table_pop_sizes.txt)
+pop_info=$(sed "${SLURM_ARRAY_TASK_ID}q;d" ../../inputs/make_table_pop_sizes.txt)
 pop=`cut -f1 -d' '<<<${pop_info}`
 n=`cut -f2 -d' '<<<${pop_info}`
 
