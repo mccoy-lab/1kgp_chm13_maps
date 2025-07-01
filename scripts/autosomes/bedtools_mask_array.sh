@@ -1,10 +1,3 @@
-#!/bin/bash
-#SBATCH --time=0:15:00                     
-#SBATCH --nodes=1                          
-#SBATCH --cpus-per-task=24                 
-#SBATCH --partition=defq                    
-#SBATCH --account=rmccoy22
-
 ml bedtools
 ml htslib
 
