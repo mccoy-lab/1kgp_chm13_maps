@@ -15,7 +15,7 @@ fullChrAllPops = []
 
 for pop in pops:
   print(pop)
-  fname = '/home/abortvi2/scr16_rmccoy22/abortvi2/pyrho_1kgp_chm13_unphased/chrX_nPAR/opt_params_toAvg/' + pop + '_chrX_nPAR.tsv'
+  fname = 'pyrho_1kgp_chm13_unphased/chrX_nPAR/opt_params_toAvg/' + pop + '_chrX_nPAR.tsv'
   chrMap = np.genfromtxt(fname, skip_header = 1, usecols = [1,2,3])
     
   chrLength = int(np.max(chrMap[:, 1]))
